@@ -11,6 +11,7 @@ pandas==0.21.1
 psycopg2==2.7.3.2
 python-dateutil==2.6.1
 pytz==2017.3
+scipy==1.0.0
 six==1.11.0
 sklearn==0.0
 SQLAlchemy==1.2.2
