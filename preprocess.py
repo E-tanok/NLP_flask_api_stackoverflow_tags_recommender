@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 import nltk
+nltk.data.path.append(dir_path+'/nltk_data/')
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
