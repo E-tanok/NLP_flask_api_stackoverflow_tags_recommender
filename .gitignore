@@ -1,0 +1,6 @@
+ENV/
+BACKUP/
+app.db
+__pycache__/
+tags_generation/__pycache__/
+TEST.py

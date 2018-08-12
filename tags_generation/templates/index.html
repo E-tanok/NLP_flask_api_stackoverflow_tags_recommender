@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>GetYourTags</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{url_for('static', filename = 'css/main.css')}}" />
+		<style>
+		table {
+    border-spacing: 5px;
+}
+		</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="https://konate-malick-generate-tags.herokuapp.com/">GetYourTags<span>par Malick</span></a></div>
+				<img id="r-1060983" data-claire-element-id="1061343" src="http://www.siteduzero.com/favicon.ico" alt="Image utilisateur">
+			</header>
+
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section class="banner full">
+				<article>
+					<img src="static/images/slide01.jpg" alt="" />
+
+					<div class="inner">
+						<header>
+							{% if not message_corpus %}
+							<p>Enter your message : </a></p>
+
+							<form method="POST" action="/">
+							    <input type="text" name="message_corpus" id="autocomplete" class="form-control input-lg" <input type="text" autocomplete="off" list="message_corpuss"/>
+									<input type="submit" value="Generate" /><!--<h2>Submit sends a POST request</h2>-->
+							{% endif %}
+
+							{% if message_corpus %}
+							<p><b>Enter your message : </b></p>
+
+							<form method="POST" action="/">
+							    <input type="text" name="message_corpus" id="autocomplete" class="form-control input-lg" <input type="text" autocomplete="off" list="message_corpuss"/>
+									<input type="submit" value="Regenerate" /><!--<h2>Submit sends a POST request</h2>-->
+							{% endif %}
+
+							{% if message_corpus %}
+							<br />
+							<br />
+							Tags generation . . . <!--<{{ message_corpus }}-->
+							<br />
+							{% endif %}
+						</header>
+					</div>
+				</article>
+
+				{% if message_corpus %}
+				<article>
+					<img src="static/images/slide02.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>
+								<b>We recommend you the below tags :</b>
+							</p>
+							<br />
+							<b>{{results}}</b>
+						</header>
+					</div>
+				</article>
+				{% endif %}
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<div class="container">
+					<ul class="icons">
+
+						<li><a href="https://lc.cx/fQn6" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+
+						<li><a href="https://lc.cx/fQnQ" class="icon fa-linkedin"><span class="label">Linked In</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrollex.min.js"></script>
+			<script src="static/js/skel.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>
