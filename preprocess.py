@@ -6,11 +6,11 @@ import pickle
 import numpy as np
 import nltk
 nltk.data.path.append(dir_path+'/nltk_data/')
-#nltk.download('stopwords')
-#nltk.download('punkt')
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('universal_tagset')
-#nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('universal_tagset')
+nltk.download('wordnet')
 from nltk import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import stopwords # Import the stop word list
