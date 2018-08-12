@@ -1,3 +1,5 @@
+from context import dir_path, datasources_path, learning_models_path
+
 import re
 import pandas as pd
 import pickle
@@ -13,7 +15,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import stopwords # Import the stop word list
 import time
 
-from context import dir_path, datasources_path, learning_models_path
+
 
 from functions import smart_lemmatize
 from tailored_functions import find_similar_neighbors, generate_tags
