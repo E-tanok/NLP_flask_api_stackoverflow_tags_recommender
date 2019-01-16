@@ -19,16 +19,16 @@ Because of the time factor (computer science is changing rapidly), it is better 
 ### First steps
 
 Here are the instructions which allows to launch the application :
-![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/first_steps.jpg)
+![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/first_steps.png)
 
 
 ### Once the application is launched
 
-Just type (or copy/paste) the message of your choice :
-![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/writing_message.jpg)
+Just write (or copy/paste) the message of your choice :
+![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/writing_message.png)
 
 
 ### The recommendation results
 
 The recommendation algorithm generates tags for you :
-![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/results.jpg)
+![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/results.png)
