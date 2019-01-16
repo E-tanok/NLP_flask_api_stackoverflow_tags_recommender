@@ -24,7 +24,7 @@ Here are the instructions which allows to launch the application :
 
 ### Once the application is launched
 
-Just write (or copy/paste) the message of your choice :
+Just write (or copy/paste) the message of your choice and click on "GENERATE":
 ![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/writing_message.png)
 
 
