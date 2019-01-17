@@ -32,3 +32,8 @@ Just write (or copy/paste) the message of your choice and click on "GENERATE":
 
 The recommendation algorithm generates tags for you :
 ![alt text](https://github.com/E-tanok/NLTK_stackoverflow_tags_recommender/blob/master/project_instructions/results.png)
+
+
+# Acknowledgement :
+
+This project have been made thanks to modifications on the [HTML5 template](https://templated.co/hielo) provided by [templated.co](https://templated.co/).
