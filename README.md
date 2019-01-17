@@ -36,4 +36,4 @@ The recommendation algorithm generates tags for you :
 
 # Acknowledgement :
 
-This project have been made thanks to modifications on the [HTML5 template](https://templated.co/hielo) provided by [templated.co](https://templated.co/).
+This project was realized thanks to modifications on the [HTML5 template](https://templated.co/hielo) provided by [templated.co](https://templated.co/).
