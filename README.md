@@ -1,7 +1,7 @@
 # The application :
 
 This project is a flask application which allows to recommend Stack Overflow tags to any given message.
-It uses different LDA and Word2Vec models.
+It uses an hybrid unsupervised model built with both LDA and Word2Vec models built in [this project](http://bit.ly/mk_nlp_stack)
 This models have been trained thanks to a querry built on
 https://data.stackexchange.com/stackoverflow/query/new . The corresponding query was :
 
